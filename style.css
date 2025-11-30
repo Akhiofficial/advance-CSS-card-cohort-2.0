@@ -49,11 +49,12 @@ body {
 
   border-radius: 20px;
   background: linear-gradient(black) padding-box,
-    conic-gradient(from var(--rotate), black, rgb(255, 55, 115)) border-box;
+    conic-gradient(from var(--rotate), black, rgb(157, 49, 229)) border-box;
   border: 0px solid transparent;
   animation: borderAnimate 5s infinite;
   animation-timing-function: linear;
   animation-play-state: paused;
+  text-shadow: 0 0 0px rgb(157, 49, 229);
 
   transition: all 0.2s ease;
 }
@@ -61,7 +62,8 @@ body {
 .box:hover {
   animation-play-state: running;
   border-width: 2px;
-  box-shadow: 0 0 30px rgb(255, 55, 115);
+  box-shadow: 0 0 30px rgb(157, 49, 229);
+  text-shadow: 0 0 10px rgb(157, 49, 229);
 }
 
 .box img {
